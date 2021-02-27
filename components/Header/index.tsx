@@ -12,13 +12,3 @@ export default function Header() {
     </>
   )
 }
-
-;<iframe
-  style=""
-  src="https://bandcamp.com/EmbeddedPlayer/album=4093709409/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
-  seamless
->
-  <a href="https://thejac1.bandcamp.com/album/a-gathering">
-    A Gathering by The Jac
-  </a>
-</iframe>

@@ -14,7 +14,7 @@ export default function EmbeddedContent({
   allowFullScreen = false,
   frameBorder = '0',
   height,
-  style,
+  style = {},
   src,
   title,
   width,
