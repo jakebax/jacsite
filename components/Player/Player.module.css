@@ -1,0 +1,7 @@
+.player {
+  background-color: hsla(211, 66%, 93%, 1);
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+}

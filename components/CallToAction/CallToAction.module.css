@@ -1,0 +1,23 @@
+.section {
+  color: hsla(224, 45%, 22%, 1);
+  font-family: 'Open Sans', Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 20rem;
+  margin: 2rem;
+}
+
+.buynow {
+  background-color: hsla(1, 73%, 57%, 0.8);
+  color: hsla(224, 45%, 22%, 1);
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8rem;
+  height: 2.5rem;
+}
