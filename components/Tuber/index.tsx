@@ -1,13 +1,28 @@
+import style from './Tuber.module.css'
 import EmbeddedContent from '../EmbeddedContent'
 
-export default function Tuber() {
+export type TuberProps = {
+  allow?: string
+  height?: string | number
+  src: string
+  width?: string | number
+}
+
+export default function Tuber({
+  allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
+  height = 478,
+  src,
+  width = 850,
+}: TuberProps) {
   return (
-    <EmbeddedContent
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen={true}
-      width={850}
-      height={478}
-      src="https://www.youtube.com/embed/4jUMUcCuMJ4"
-    />
+    <section className={style.tuber}>
+      <EmbeddedContent
+        allow={allow}
+        allowFullScreen={true}
+        height={height}
+        src={src}
+        width={width}
+      />
+    </section>
   )
 }

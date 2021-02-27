@@ -1,0 +1,23 @@
+.moon > img {
+  position: absolute;
+  left: 4vw;
+  top: 1vh;
+  width: 40vw;
+  z-index: 9;
+}
+
+.cloudsleft > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 33vw;
+  z-index: 10;
+}
+
+.cloudsright > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 33vw;
+  z-index: 10;
+}

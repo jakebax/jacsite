@@ -1,3 +1,7 @@
+:root {
+  --space: 1rem;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -32,4 +36,39 @@ h3 {
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
+}
+
+html {
+  background-color: hsla(0, 0%, 100%, 1);
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: hsla(224, 45%, 22%, 1);
+  font-family: 'Open Sans', Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  text-rendering: optimizeSpeed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+h2 {
+  color: hsla(216, 35%, 21%, 1);
+  font-family: 'Open Sans', Roboto, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
 }

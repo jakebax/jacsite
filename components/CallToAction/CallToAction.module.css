@@ -3,21 +3,32 @@
   font-family: 'Open Sans', Roboto, sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  height: 306px;
   line-height: 1.4;
-  width: 20rem;
   margin: 2rem;
+  width: 18rem;
+}
+
+.section > * {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.section > * + * {
+  margin-top: var(--space);
 }
 
 .buynow {
-  background-color: hsla(1, 73%, 57%, 0.8);
-  color: hsla(224, 45%, 22%, 1);
-  border-radius: 3px;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.4;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 8rem;
+  background-color: hsla(1, 73%, 57%, 0.8);
+  border-radius: 3px;
+  color: hsla(0, 0%, 100%, 1);
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
   height: 2.5rem;
+  justify-content: center;
+  line-height: 1.4;
+  text-decoration: none;
+  width: 8rem;
 }
