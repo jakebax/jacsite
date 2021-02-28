@@ -24,7 +24,11 @@ export default function Home() {
       <Main>
         <Section>
           <TextBlock>
-            <h2 id="about-the-album">About the album</h2>
+            <h2 id="a-gathering">
+              <a className="return" href="#">
+                About the album
+              </a>
+            </h2>
             <p>
               Featuring material from their 2017 collaboration with Korean
               quartet Black String, plus a swathe of brand new original
@@ -51,7 +55,11 @@ export default function Home() {
         <Rule />
         <Section>
           <TextBlock>
-            <h2 id="about-the-jac">About The Jac</h2>
+            <h2 id="about-the-jac">
+              <a className="return" href="#">
+                About The Jac
+              </a>
+            </h2>
             <p>
               Since 2010 the 8-piece ensemble The Jac has been a leading voice
               in the New Zealand jazz scene, pushing a modern sound with their

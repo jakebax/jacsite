@@ -61,8 +61,8 @@ body {
   *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
@@ -71,4 +71,23 @@ h2 {
   font-family: 'Open Sans', Roboto, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+#__next {
+  overflow: auto;
+  width: 100vw;
+}
+
+a.return,
+a.return:focus,
+a.return:hover {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: hsla(224, 45%, 22%, 1);
+  text-decoration: none;
+}
+
+a.return:focus:after,
+a.return:hover:after {
+  color: hsla(224, 45%, 22%, 0.3);
+  content: ' \21A5';
 }

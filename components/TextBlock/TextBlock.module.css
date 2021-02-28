@@ -1,10 +1,10 @@
 .textblock {
-  width: 60ch;
+  max-width: 60ch;
 }
 
 .textblock > * {
-  margin-top: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .textblock > * + * {

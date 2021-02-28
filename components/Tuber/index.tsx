@@ -1,5 +1,5 @@
-import style from './Tuber.module.css'
 import EmbeddedContent from '../EmbeddedContent'
+import style from './Tuber.module.css'
 
 export type TuberProps = {
   allow?: string
@@ -10,19 +10,11 @@ export type TuberProps = {
 
 export default function Tuber({
   allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
-  height = 478,
   src,
-  width = 850,
 }: TuberProps) {
   return (
     <section className={style.tuber}>
-      <EmbeddedContent
-        allow={allow}
-        allowFullScreen={true}
-        height={height}
-        src={src}
-        width={width}
-      />
+      <EmbeddedContent allow={allow} allowFullScreen={true} src={src} />
     </section>
   )
 }

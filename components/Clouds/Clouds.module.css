@@ -1,14 +1,14 @@
 .moon > img {
+  left: 3vw;
   position: absolute;
-  left: 4vw;
   top: 1vh;
   width: 40vw;
   z-index: 9;
 }
 
 .cloudsleft > img {
-  position: absolute;
   left: 0;
+  position: absolute;
   top: 0;
   width: 32vw;
   z-index: 10;
@@ -20,4 +20,17 @@
   top: 0;
   width: 33vw;
   z-index: 10;
+}
+
+@media screen and (max-width: 700px) {
+  .cloudsleft,
+  .cloudsright {
+    display: none;
+  }
+
+  .moon > img {
+    left: -17vh;
+    top: 0;
+    width: 50vh;
+  }
 }
