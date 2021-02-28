@@ -42,7 +42,7 @@ const config: SiteConfig = {
   siteTitleShort: 'The JAC', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "The JAC's new CD: A Gathering", // Alternative site title for SEO.
   siteLogo: '/logos/logo-1024.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://the-jac.com', // Domain of your website without pathPrefix.
+  siteUrl: 'https://the-jac.co.nz', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "A site for The JAC's new CD: A Gathering. Now available.", // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml', // Path to the RSS file.
