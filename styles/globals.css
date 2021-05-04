@@ -91,3 +91,7 @@ a.return:hover:after {
   color: hsla(224, 45%, 22%, 0.3);
   content: ' \21A5';
 }
+
+strong {
+  font-weight: 600;
+}

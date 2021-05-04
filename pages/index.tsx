@@ -1,15 +1,15 @@
-import CallToAction from '../components/CallToAction'
-import Cover from '../components/Cover'
 import Bandcamp from '../components/Bandcamp'
+import CallToAction from '../components/CallToAction'
+import Clouds from '../components/Clouds'
+import Cover from '../components/Cover'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Player from '../components/Player'
-import Tuber from '../components/Tuber'
 import Main from '../components/Main'
+import Player from '../components/Player'
 import Rule from '../components/Rule'
 import Section from '../components/Section'
 import TextBlock from '../components/TextBlock'
-import Clouds from '../components/Clouds'
+import Tuber from '../components/Tuber'
 
 export default function Home() {
   return (
@@ -22,6 +22,85 @@ export default function Home() {
         <CallToAction />
       </Player>
       <Main>
+        <Section>
+          <TextBlock>
+            <h2 id="tour-dates">
+              <a className="return" href="#">
+                Tour dates
+              </a>
+            </h2>
+            <p>
+              <strong>The Jac is back!</strong> A year on from the
+              COVID-enforced online release of their third studio album &lsquo;
+              <strong>A Gathering</strong>&rsquo;, the band is reforming in 2021
+              to tour Aotearoa once again with a follow up album, &lsquo;
+              <strong>Walking Spirits</strong>&rsquo;!
+            </p>
+            <ul>
+              <li>
+                PALMERSTON NORTH: Manawatu Jazz and Blues Festival, Globe
+                theatre. 8:00pm, June 3rd.{' '}
+                <a href="https://nz.patronbase.com/_GlobeTheatre/Productions/JAC/Performances">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                KĀPITI COAST: Te Raukura ki Kāpiti, Kāpiti Performing Arts
+                Center. 7:30pm, June 5th.{' '}
+                <a href="https://www.eventfinda.co.nz/2021/the-jac-gathering-walking-spirits-double-album-release/paraparaumu/tickets">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                WELLINGTON: Wellington Jazz Festival, City Gallery Auditorium.
+                5:00pm, June 12th{' '}
+                <a href="https://www.undertheradar.co.nz/ticket/14420/The-Jac-Walking-Spirits---Album-Release.utr">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                CHRISTCHURCH: 03 Sessions, Space Academy. 8:00pm, June 17th.{' '}
+                <a href="https://events.humanitix.com/the-jac-wlg/tickets">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                Oamaru Opera House. 8:00pm, June 18th.{' '}
+                <a href=" https://oamaruoperahouse.co.nz/">TICKETS</a>
+              </li>
+              <li>
+                DUNEDIN: Dunedin Jazz Club Concert Series, Hanover Hall. 8:00pm,
+                June 19th <a href="https://dunedinjazz.club/">TICKETS</a>
+              </li>
+              <li>
+                AUCKLAND: Creative Jazz Club, Anthology Lounge. 8:00pm, August
+                25th. <a href="https://www.creativejazzclub.co.nz/">TICKETS</a>
+              </li>
+              <li>
+                HAMILTON: Nivara Lounge. 8:00pm, August 26th{' '}
+                <a href="https://www.undertheradar.co.nz/ticket/14539/The-Jac-A-GatheringWalking-Spirits-Double-Album-Release.utr">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                NELSON: Fairfield House. 7:30pm, September 3rd.{' '}
+                <a href="https://www.undertheradar.co.nz/ticket/14503/The-Jac-A-GatheringWalking-Spirits-Double-Album-Release.utr">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                MOTUEKA: Chanel Arts Centre. 7:30pm, September 4th{' '}
+                <a href="https://www.undertheradar.co.nz/ticket/14504/The-Jac-A-GatheringWalking-Spirits-Double-Album-Release.utr">
+                  TICKETS
+                </a>
+              </li>
+              <li>
+                GOLDEN BAY: The Mussel Inn. 8:00pm, September 5th.{' '}
+                <a href="http://www.musselinn.co.nz/">TICKETS</a>
+              </li>
+            </ul>
+          </TextBlock>
+        </Section>
         <Section>
           <TextBlock>
             <h2 id="a-gathering">
