@@ -53,7 +53,7 @@ export default function Home() {
               </li>
               <li>
                 WELLINGTON: Wellington Jazz Festival, City Gallery Auditorium.
-                5:00pm, June 12th{' '}
+                5:00pm, June 13th{' '}
                 <a href="https://www.undertheradar.co.nz/ticket/14420/The-Jac-Walking-Spirits---Album-Release.utr">
                   TICKETS
                 </a>
