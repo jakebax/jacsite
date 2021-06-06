@@ -9,7 +9,7 @@ export default function Header() {
       </header>
       <Nav />
       <div className={styles.title}>
-        &ldquo;A Gathering&rdquo; album release tour 2021 coming soon!
+        New album &ldquo;Walking Spirits&rdquo; out now!
       </div>
     </>
   )

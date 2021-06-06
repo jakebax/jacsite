@@ -5,7 +5,10 @@ export default function Nav() {
     <nav className={style.nav}>
       <ul>
         <li>
-          <a href="#a-gathering">&lsquo;A Gathering&rsquo;</a>
+          <a href="#tour-dates">2021 Tour</a>
+        </li>
+        <li>
+          <a href="#albums">Albums</a>
         </li>
         <li>
           <a href="#about-the-jac">About The Jac</a>

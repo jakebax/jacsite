@@ -103,30 +103,33 @@ export default function Home() {
         </Section>
         <Section>
           <TextBlock>
-            <h2 id="a-gathering">
+            <h2 id="albums">
               <a className="return" href="#">
-                About the album
+                About the albums
               </a>
             </h2>
             <p>
-              Featuring material from their 2017 collaboration with Korean
-              quartet Black String, plus a swathe of brand new original
-              compositions, A Gathering encapsulates a milestone in their sound.
-              Recorded at Roundhead Studios in Auckland, it is a beautifully
+              Featuring material from their{' '}
+              <strong>
+                2017 collaboration with Korean traditional quartet Black String
+              </strong>
+              , plus a swathe of brand new original compositions, the two albums
+              encapsulate a milestone in their sound.
+            </p>
+            <p>
+              Recorded at Roundhead Studios in Auckland, they are a beautifully
               produced illustration of a band at the height of its powers;
               showcasing their intricate and immersive compositions; tight
               ensemble playing, and assertive, individual improvising voices.
-              Two of the tracks from the album, “Beyond the Palace” and “A
-              Gathering” were nominated for the APRA NZ Best Jazz Composition of
-              the Year Award in 2018, and a third, "Tui", won the same award in
-              2020.
             </p>
             <p>
-              Given the emergence of Covid-19 in March 2020, The Jac’s
-              accompanying tour was put on the back-burner until 2021. A
-              Gathering will now be released in two stages: This is the first
-              five of 10 tracks and the second five will be released in the lead
-              up to the 2021 tour.
+              Two of the tracks, “Beyond the Palace” and “A Gathering” were
+              nominated for the{' '}
+              <strong>
+                2018 APRA/AMCOS Best Jazz Composition of the Year Award
+              </strong>
+              . A third,{' '}
+              <strong>&ldquo;Tui&rdquo;, won the same award in 2020</strong>.
             </p>
           </TextBlock>
         </Section>

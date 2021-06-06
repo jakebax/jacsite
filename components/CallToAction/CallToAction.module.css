@@ -32,3 +32,8 @@
   text-decoration: none;
   width: 8rem;
 }
+
+.album {
+  font-style: italic;
+  font-weight: 600;
+}
