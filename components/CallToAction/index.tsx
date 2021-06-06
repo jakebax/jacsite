@@ -16,10 +16,16 @@ export default function CallToAction() {
       </p>
       <p>
         <a
+          href="https://thejac1.bandcamp.com/album/walking-spirits-2"
+          className={style.buynow}
+        >
+          Get Walking Spirits
+        </a>
+        <a
           href="https://thejac1.bandcamp.com/album/a-gathering"
           className={style.buynow}
         >
-          Get your copy
+          Get A Gathering
         </a>
       </p>
     </section>

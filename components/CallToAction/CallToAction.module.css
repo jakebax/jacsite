@@ -29,8 +29,10 @@
   height: 2.5rem;
   justify-content: center;
   line-height: 1.4;
+  margin: 6px 0;
+  padding: 0 6px;
   text-decoration: none;
-  width: 8rem;
+  width: max-content;
 }
 
 .album {

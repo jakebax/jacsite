@@ -10,6 +10,7 @@ import Rule from '../components/Rule'
 import Section from '../components/Section'
 import TextBlock from '../components/TextBlock'
 import Tuber from '../components/Tuber'
+import style from './index.module.css'
 
 export default function Home() {
   return (
@@ -31,10 +32,10 @@ export default function Home() {
             </h2>
             <p>
               <strong>The Jac is back!</strong> A year on from the
-              COVID-enforced online release of their third studio album &lsquo;
-              <strong>A Gathering</strong>&rsquo;, the band is reforming in 2021
-              to tour Aotearoa once again with a follow up album, &lsquo;
-              <strong>Walking Spirits</strong>&rsquo;!
+              COVID-enforced online release of their third studio album{' '}
+              <span className={style.album}>A Gathering</span>, the band is
+              reforming in 2021 to tour Aotearoa once again with a follow up
+              album, <span className={style.album}>Walking Spirits</span>.
             </p>
             <ul>
               <li>
